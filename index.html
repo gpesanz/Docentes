@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+        />
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div data-role="page" id="RESTAURANTE" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>RESTAURAN</h1>
+            </div>
+            <div data-role="content">
+                <a data-role="button" class="ui-btn-active" id="Budin" href="#Budin" data-rel="page"
+                data-transition="turn">BudiÂ­n de verduras</a>
+                <a data-role="button" class="ui-btn-active" id="Pescado" href="#Pescado" data-rel="page">Pescado al Cilantro</a>
+                <a data-role="button" class="ui-btn-active" href="#Aperitivos">Aperitivos de queso de cabra</a>
+                <a data-role="button" class="ui-btn-active" href="#Bocaditos">Bocaditos de caviar</a>
+                <a data-role="button" class="ui-btn-active" href="#Foie">Foie con frutos rojos</a>
+                <a data-role="button" class="ui-btn-active" href="#Bolitas">Bolitas de papa</a>
+                <a data-role="button" class="ui-btn-active" href="#Ensalada">Ensalada</a>
+                <a data-role="button" class="ui-btn-active" id="BEBIDAS" href="#BEBIDAS">BEBIDAS</a>
+                <a data-role="button" class="ui-btn-active" href="#PASTAS">PASTAS</a>
+                <a data-role="button" class="ui-btn-active" href="#POSTRES">POSTRES</a>
+            </div>
+            <div data-role="footer" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>PLATILLOS</h1>
+            </div>
+        </div>
+        <div data-role="page" id="Budin" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
+        data-title="BUDIN">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
+            data-position="fixed">
+                <h1>Budin de verduras</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 1300 DOLARES</h1>
+                <img src="images/budin-de-verduras.jpg" width="280" height="280"
+                style="display: block; margin: 0 auto" />
+            </div>
+        </div>
+        <div data-role="page" id="Pescado" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>Pescado al Cilantro</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 99 Dolares</h1>
+                <img src="images/pescado-al-cilantro.jpg" width="280" height="280"
+                style="display: block; margin: 0 auto" />
+            </div>
+        </div>
+        <div data-role="page" id="Aperitivos" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>Aperitivos de queso de cabra</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 120 Dolares</h1>
+                <img src="images/aperitivos-de-queso-de-cabra.jpg" width="280"
+                height="280" style="display: block; margin: 0 auto" />
+                <a data-role="button" class="ui-btn-active" href="#RESTAURANTE">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="Bocaditos" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>Bocaditos de caviar</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 100 DOLARES</h1>
+                <img src="images/bocaditos-de-caviar.jpg" width="280" height="280"
+                style="display: block; margin: 0 auto" />
+                <a data-role="button" class="ui-btn-active" href="#RESTAURANTE">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="Foie" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>Foie con frutos rojos</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 85 Dolares</h1>
+                <img src="images/foie-con-frutos-rojos (1).jpg" width="280" height="280"
+                style="display: block; margin: 0 auto" />
+                <a data-role="button" class="ui-btn-active" href="#RESTAURANTE">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="Bolitas" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>Bolitas de papa</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 245 Dolares</h1>
+                <img src="images/bolitas-de-papa.jpg" width="280" height="280"
+                style="display: block; margin: 0 auto" />
+                <a data-role="button" class="ui-btn-active" href="#RESTAURANTE">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="Ensalada" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>Ensalada mixta</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 123 Dolares</h1>
+                <img src="images/ensalada-mixta.jpg" width="280" height="280"
+                style="display: block; margin: 0 auto" />
+                <a data-role="button" class="ui-btn-active" href="#RESTAURANTE">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="BEBIDAS" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>BEBIDAS</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 99.90 DOLARES</h1>
+                <img src="images/descarga.jpg" />
+                <img src="images/descarga (2).jpg" />
+                <img src="images/images (4).jpg" />
+                <img src="images/images (3).jpg" />
+                <img src="images/images (2).jpg" />
+                <img src="images/images (1).jpg" />
+                <img src="images/descarga (1).jpg" />
+                <img src="images/images (5).jpg" />
+                <a data-role="button" class="ui-btn-active" href="#RESTAURANTE">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="PASTAS" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>PASTAS</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 150 DOLARES</h1>
+                <img src="images/descarga (3).jpg" />
+                <img src="images/descarga (4).jpg" />
+                <img src="images/descarga (5).jpg" />
+                <img src="images/images (6).jpg" />
+                <img src="images/images (8).jpg" />
+                <img src="images/images (10).jpg" />
+                <a data-role="button" class="ui-btn-active" href="#RESTAURANTE">MENU</a>
+            </div>
+        </div>
+        <div data-role="page" id="POSTRES" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header" style="background-image: url('images/250111_f8.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+                <h1>POSTRES</h1>
+            </div>
+            <div data-role="content">
+                <h1>$ 86 DOLARES</h1>
+                <a data-role="button" class="ui-btn-active" href="#RESTAURANTE">MENU</a>
+                <img src="images/images (13).jpg" />
+                <img src="images/images (14).jpg" />
+                <img src="images/images (12).jpg" />
+                <img src="images/descarga (8).jpg" />
+                <img src="images/descarga (7).jpg" />
+            </div>
+        </div>
+    </body>
+
+</html>
